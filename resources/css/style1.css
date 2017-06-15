@@ -1,10 +1,39 @@
 
 @media only screen and (max-width:1024px)
 {
+    .productgrid{
+      height:100%;
+      width:53rem;
+      display:flex;
+      align-items:flex-start;
+      justify-content:space-between;
+      flex-flow: column;
+    }
+    .img-container{
+        width:53rem;
+        display:flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    .productgrid img{
+             width:25rem;
+             height:13rem;
 
-  .productgrid {
-      width:25rem;
-      height:30rem;
+      }
+
+
+      #pen, #watch ,#glasses{
+        width:25rem;/*16rem*/
+        height:15rem;
+        border:4px solid black;
+        color:white;
+        text-align: center;
+      }
+
+      .imgtitle{
+        background-color: black;
+        height:2rem;
+        width:25rem;/*16rem*/
       }
  .nav-container #norm{
            display: none;
@@ -139,87 +168,93 @@ html{
   display:inline;
 }
 /* End Header */
-.main{
+/*.main{
   height:30rem;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-
-.productgrid{
-  height:100%;
-  width:53rem;
-  display: flex;
-  align-items:flex-start;
-  justify-content: space-between;
-  
-}
-
-.img-container{
-  width:53rem;
-  height:9rem;
-  margin-top: 3rem;
-  margin-left: 0;
+  width:100%;
   display:flex;
-  align-items:flex-start;
-  justify-content: space-between;
+  align-items:center;
+  justify-content: center;
 
+}*/
+.productgrid{
+  margin-top: 3rem;
+  height:30rem;
+  width:100%;
+  display:flex;
+  flex-flow: column;
+    align-items:center;
+  justify-content:center;
 }
+
 .productgrid img{
+         width:16rem;
+         height:13rem;
 
-   height:9rem;
-  width:19rem;
-  background-color:white;
-}
-
-  #pen, #watch , #glasses{
-    display: inline-block;
-  border:4px solid black;
   }
+  .img-container{
+    margin-top: 3rem;
+    width:53rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
 
-.title span{
-    text-align: center;
+  }
+#pen, #watch , #glasses{
+  width:16rem;
+  height:15rem;
+  border:4px solid black;
+  color:white;
+  text-align: center;
 }
-.title{
+#pen h3, #watch h3 , #glasses h3{
+  padding:0.5rem;
+}
+.imgtitle{
+  background-color: black;
   height:2rem;
   width:16rem;
-  background-color:black;
-  color:white;
-  }
-#location , #timings
-{
-  height:3rem;
-  width:18.6rem;
-  background-color:black;
 }
 .locgrid{
   margin-top: 3rem;
-    width:100%;
-  display:flex;
-  align-items:flex-start;
-  justify-content:space-between;
+width:53rem;
+height:5rem;
+display:flex;
+align-items: flex-start;
+justify-content: space-between;
 }
-#location span, #timings span{
-  margin-left:2rem;
-  margin-top:0.5rem;
-  color:white;
-}
-
-#textgrid
-{
-  height:5rem;
-  width:100%;
-  display:flex;
-  align-items:flex-start;
-  justify-content:space-between;
-}
-
-#textgrid p{
+.location{
+  background-color: black;
   width:18.6rem;
-  color:black;
+  height:3rem;
 }
+.location span{
+  color:white;
+  text-align:left;
+  padding-left:2rem;
+  padding-top:1rem;
+}
+
+.textgrid{
+  width:53rem;
+  height:2rem;
+  display:flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.textgrid #textloc{
+ width:18.6rem;
+ height:2rem;
+ background-color: white;
+}
+
+.textgrid #textloc span{
+    color:black;
+  text-align:left;
+  padding-left:2rem;
+  padding-top:1rem;
+}
+
 
 /* Footer */
 .footer{
