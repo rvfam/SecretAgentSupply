@@ -218,7 +218,7 @@ html{
   .img-container{
     margin-top: 3rem;
     height:16rem;
-    width:26rem;
+    max-width:26rem;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -228,7 +228,7 @@ html{
     display:none;
   }
  #pen, #watch , #glasses{
-  width:90%;
+  max-width:90%;
   height:15rem;
   border:4px solid black;
   color:white;
